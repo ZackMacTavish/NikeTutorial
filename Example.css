@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: Wildworld;
+    src: url(WILD\ WORLD.otf);
+  }
+  
+
+.parent-container{
+display: flex;
+align-items: center; 
+justify-content: flex-end;   
+background-color: #b3e140;
+height: 100vh;
+width: 100vw;
+}
+
+.our-nav{
+    display: flex;
+    position: fixed;
+    top:1vh;
+    right: 2vw;
+    left: 2vw;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+.list-flex{
+    display: flex;
+    justify-content: space-between;
+    width:50%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+li:hover{
+cursor: pointer;
+opacity: 80%;
+}
+
+.our-logo{
+    width: clamp(44px, 5vw, 120px);
+}
+
+.paragraph-flex{
+    width: 50vw;
+    padding-left: 3vw;
+}
+
+.header-styling{
+    line-height: 1.1;
+    font-size: 5em;
+    color: black;
+    width: 100%;
+    font-family: Wildworld, sans-serif;
+   left: 4vw;
+    }
+
+    .paragraph-styling{
+        font-size: 1.5rem;
+        color: black;
+        width: 100%;
+        font-family: sans-serif;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+
+    .button{
+    background-color: #d7ff71;
+    border: none;
+    border-radius: 20px;     
+    height: 5vh;
+    width: 8vw;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    }
+
+    .button:hover{
+        cursor: pointer;
+        opacity: 80%;
+    }
+    
+    .our-image{
+       width: 50vw;
+        height: auto;
+    }
